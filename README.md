@@ -24,12 +24,21 @@ Prerequisites: [Node.js](https://nodejs.org/) 18+, npm and [Git](https://git-scm
 
 ### Fork and clone
 
-1. Clone your fork 
+1. Fork [ayata/MetPAS](https://github.com/ayata/MetPAS) on GitHub.
+2. Clone your fork, replacing `<your-github-username>` with your GitHub username:
 
-   ```bash
-   git clone https://github.com/ayata/MetPAS.git
-   cd MetPAS
-   ```
+```bash
+git clone https://github.com/<your-github-username>/MetPAS.git
+cd MetPAS
+```
+
+3. Create a new `dev` branch from `main`, then pull the `dev` branch code from the original [ayata/MetPAS](https://github.com/ayata/MetPAS) repository:
+
+```bash
+git switch main
+git switch -c dev
+git pull https://github.com/ayata/MetPAS.git dev
+```
 
 ### Install and run
 
